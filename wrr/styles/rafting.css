@@ -1,0 +1,13 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --primary-color: blue;
+    --secondary-color: yellow;
+    --accent1-color: red;
+    --accent2-color: gray;
+    --heading-font: "A";
+    --body-font:
+}
