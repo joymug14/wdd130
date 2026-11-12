@@ -85,8 +85,8 @@ nav a {
 }
 
 section h2 {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
     text-align: center;
     padding: 8px;
     margin-top: 15px;
@@ -96,6 +96,7 @@ section h2 {
 section p {
     padding: 10px;
     font-size: 10px;
+    color: var(--accent1-color);
 }
 
 footer {
