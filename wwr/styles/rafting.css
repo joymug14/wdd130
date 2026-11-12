@@ -4,10 +4,10 @@ img {
 }
 
 :root {
-    --primary-color: lightblue;
+    --primary-color: darkblue;
     --secondary-color: yellow;
     --accent1-color: black;
-    --accent2-color: darkblue;
+    --accent2-color: red;
     --heading-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
     --body-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -19,7 +19,7 @@ img {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--body-font);
     max-width: 900px;
     margin: 0 auto;
 }
@@ -33,6 +33,7 @@ nav {
 }
 
 nav a {
+    text-decoration: none;
     display: block;
     font-size: 12px;
 }
@@ -57,6 +58,7 @@ nav a {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: var(--heading-font);
     font-size: 1.2rem;
 }
 
@@ -83,7 +85,7 @@ nav a {
 }
 
 section h2 {
-    background-color: #1d3a5f;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
     padding: 8px;
@@ -99,6 +101,8 @@ section p {
 footer {
     display: block;
     padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 footer p {
@@ -116,4 +120,8 @@ footer p {
 .socialmedia img {
     width: 18px;
     height: 18px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
