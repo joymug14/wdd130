@@ -4,10 +4,116 @@ img {
 }
 
 :root {
-    --primary-color: blue;
+    --primary-color: lightblue;
     --secondary-color: yellow;
-    --accent1-color: red;
-    --accent2-color: gray;
-    --heading-font: "A";
-    --body-font:
+    --accent1-color: black;
+    --accent2-color: darkblue;
+    --heading-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --body-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 80px;
+}
+
+nav {
+    display: block;
+}
+
+nav a {
+    display: block;
+    font-size: 12px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(29, 58, 95, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.hero article {
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(29, 58, 95, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero article img {
+    width: 80px;
+    float: right;
+    order: 2;
+}
+
+section h2 {
+    background-color: #1d3a5f;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+section p {
+    padding: 10px;
+    font-size: 10px;
+}
+
+footer {
+    display: block;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 10px;
+    margin-bottom: 5px;
+
+}
+
+.socialmedia {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.socialmedia img {
+    width: 18px;
+    height: 18px;
 }
