@@ -182,7 +182,7 @@ section p {
 }
 
 .contact-form button {
-    background-color: #333;
+    background-color: darkblue;
     color: white;
     padding: 0.6rem;
     border: none;
@@ -200,7 +200,7 @@ section p {
 }
 
 .employee h2 {
-    background-color: yellow;
+    background-color: darkblue;
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
