@@ -192,15 +192,15 @@ section p {
 
 .employees {
 
-    margin-top: 2rem auto;
+    margin: 2rem auto;
     text-align: center;
     padding: 1rem;
     border: 1px solid black;
     max-width: 1000px;
 }
 
-.employee h2 {
-    background-color: darkblue;
+.employees h2 {
+    background-color: yellow;
     padding: 0.5rem;
     margin-bottom: 1rem;
 }
